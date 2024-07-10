@@ -47,17 +47,17 @@ in the 3D simulation scene. In this image, pixel value 0 represents buildings, a
 
 | Scene 1                            | Tx 1_0                     |
 |------------------------------------|----------------------------|
-| ![scene_1.png](assets/scene_1.png) | ![1_0.png](assets/1_0.png) |
+| ![scene_1.png](figures/scene_1.png) | ![1_0.png](figures/1_0.png) |
 
 ### RadioMap Images
 
 | RSSI 1_0_0                     | RSSI 1_0_1                     | RSSI 1_0_2                     |
 |--------------------------------|--------------------------------|--------------------------------|
-| ![1_0_0.png](assets/1_0_0.png) | ![1_0_1.png](assets/1_0_1.png) | ![1_0_2.png](assets/1_0_2.png) |
+| ![1_0_0.png](figures/1_0_0.png) | ![1_0_1.png](figures/1_0_1.png) | ![1_0_2.png](figures/1_0_2.png) |
 
 | RSSI 1_0_3                     | RSSI 1_0_4                     | RSSI 1_0_5                     |
 |--------------------------------|--------------------------------|--------------------------------|
-| ![1_0_3.png](assets/1_0_3.png) | ![1_0_4.png](assets/1_0_4.png) | ![1_0_5.png](assets/1_0_5.png) |
+| ![1_0_3.png](figures/1_0_3.png) | ![1_0_4.png](figures/1_0_4.png) | ![1_0_5.png](figures/1_0_5.png) |
 
 In the example, RSSI 1_0_0 indicates no reflection and scattering, while RSSI 1_0_1 indicates a total of one reflection
 and scattering, and so on.
