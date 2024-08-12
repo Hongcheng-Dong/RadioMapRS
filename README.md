@@ -1,8 +1,22 @@
-# Discord_Library_Dataset
+# RadioMap_Dataset_Reflection/Scattering_Counts
 
-# Releases: 1.3
+## RadioMap_Dataset
 
-## libarary install [version latest](https://sysurl.com.br/ekVmR)
+This dataset is generated using the TensorFlow-based open-source library for simulating ray tracing (RT),
+Sionna (https://nvlabs.github.io/sionna/index.html), with varying sums of reflections and scatterings. The simulation
+environment is based on different urban areas in China. The region of interest is a square area with a side length of
+620 meters, and the transmitters (TXs) are uniformly distributed at an altitude of 1.5 meters. The heights of the ground
+receivers (RXs) are fixed at 1.5 meters.
+
+In the simulation:
+
+- Environment frequency: 2.5 GHz
+- Transmitter power: 23 dBm
+- Transmitter height: 1.5 meters
+- Transmitter antenna array: 8×4 elements with both vertical and horizontal spacing of 0.06 meters (half wavelength),
+  isotropic radiation pattern, and dual polarization
+- Receiver height: 1.5 meters
+- Receiver antenna array: single element with isotropic radiation pattern and cross polarization
 
 ## Document:
 
@@ -35,7 +49,18 @@ in the 3D simulation scene. In this image, pixel value 0 represents buildings, a
 |------------------------------------|----------------------------|
 | ![scene_1.png](figures/scene_1.png) | ![1_0.png](figures/1_0.png) |
 
+### RadioMap Images
 
+| RSSI 1_0_0                     | RSSI 1_0_1                     | RSSI 1_0_2                     |
+|--------------------------------|--------------------------------|--------------------------------|
+| ![1_0_0.png](figures/1_0_0.png) | ![1_0_1.png](figures/1_0_1.png) | ![1_0_2.png](figures/1_0_2.png) |
+
+| RSSI 1_0_3                     | RSSI 1_0_4                     | RSSI 1_0_5                     |
+|--------------------------------|--------------------------------|--------------------------------|
+| ![1_0_3.png](figures/1_0_3.png) | ![1_0_4.png](figures/1_0_4.png) | ![1_0_5.png](figures/1_0_5.png) |
+
+In the example, RSSI 1_0_0 indicates no reflection and scattering, while RSSI 1_0_1 indicates a total of one reflection
+and scattering, and so on.
 
 ## Future
 
@@ -43,4 +68,5 @@ The dataset with each scene having more Txs is being processed and will be updat
 
 ## Contact Information
 
-
+If you have any questions or suggestions, please contact the dataset maintenance team at:
+hongchengdong1@link.cuhk.edu.cn
